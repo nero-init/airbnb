@@ -2,8 +2,6 @@
 
 {{ config(materialized='view') }}
 
--- Esta linha deve ser adicionada acima do bloco CREATE VIEW
-
 SELECT
   id,
   name,
