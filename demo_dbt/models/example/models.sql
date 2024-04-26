@@ -6,6 +6,7 @@
 
 SELECT
   id,
+  name,
   host_id,
   host_name,
   neighbourhood_group,
