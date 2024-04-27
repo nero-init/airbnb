@@ -7,7 +7,6 @@ SELECT
   name,
   host_id,
   host_name,
-  neighbourhood_group,
   neighbourhood,
   latitude,
   longitude,
@@ -19,9 +18,7 @@ SELECT
   reviews_per_month,
   calculated_host_listings_count,
   availability_365,
-  number_of_reviews_ltm,
-  license
+  number_of_reviews_ltm
 FROM
   airbnb_listings.public.airbnb_listings
-WHERE
-  license IS NOT NULL
+
