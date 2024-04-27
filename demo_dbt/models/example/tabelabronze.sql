@@ -20,5 +20,5 @@ SELECT
   availability_365,
   number_of_reviews_ltm
 FROM
-  airbnb_listings.public.airbnb_listings;
+  airbnb_listings.public.airbnb_listings
 
